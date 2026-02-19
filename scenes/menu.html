@@ -1,52 +1,73 @@
 <!DOCTYPE html>
-<html lang="ES">
-    <head>  
-        <meta charset="utf-8" />
-        <title> Entrada principal</title>
-    </head>
-    <body>
-        <header> 
-            <h1>Entrada principal</h1>
-            <nav>
-                <ol>
-                    <li><a href="../index.html">Inicio</a></li>
-                </ol>
-            </nav>
+<html lang="es">
+
+<head>  
+    <meta charset="utf-8">
+    <title>Escapa de Evil Larry | Entrada principal</title>
+</head>
+
+<body>
+
+<header> 
+    <h1>Entrada principal</h1>
+
+    <nav aria-label="Breadcrumb">
+        <ol>
+            <li><a href="../index.html">Inicio</a></li>
+            <li>Entrada principal</li>
+        </ol>
+    </nav>
+</header>
+
+<main> 
+    <article>
+
+        <header>
+            <h2>Explorando la casa</h2>
         </header>
 
-        <main> 
-            <article>
-
-                <figure>
-                <img 
-                    src="/ivanafd/lab_3/images/entrada.png" 
-                    alt="descrpcion de la historia"
-                    style="width: 400px;"
-                />
-                <figcaption>Estas en la entrada principal de la casa de Larry</figcaption>
-                </figure>
-
-                <p> 
-                    Parece que escuchas ruidos en la sala de estar, 
-                    porque no revisas quien puede estar ahi, ten cuidado Larry puede estar en cualquier lado.  
-                </p>
+        <section>
+            <h3>Progreso de la historia</h3>
+            <p>Esto llevas de progreso de la historia:</p>
+            <progress value="0" max="100"></progress>
+            <p>La aventura apenas comienza…</p>
+        </section>
 
 
-                <nav>
-                    <h2>Escoge a donde ir en la casa</h2>
-                    <ul>
-                        <li><a href="scene1/livingRoom.html">Sala de estar</a></li>
-                        <li><a href="scene2/kitchen.html">Cocina</a></li>
-                        <li><a href="scene3/hall.html">Pasillo</a></li>
-                    </ul>
-                </nav>
-            </article>
-        </main>
 
-        <footer>
-            <p>escapa del evil larry - Ivana Figueroa</p>
-            <p>Laboratorio 3 - Only TML</p>
-        </footer>
-    </body>
-</html> 
+        <figure>
+            <img 
+                src="/ivanafd/lab_3/images/entrada.png" 
+                alt="Entrada principal de la casa de Larry"
+                width="400"
+            >
+            <figcaption>Estás en la entrada principal de la casa de Larry.</figcaption>
+        </figure>
 
+        <section>
+            <p> 
+                Parece que escuchas ruidos en la sala de estar.
+                ¿Por qué no revisas quién puede estar ahí?
+                Ten cuidado, Larry puede estar en cualquier lado.  
+            </p>
+        </section>
+
+        <nav aria-label="Opciones dentro de la casa">
+            <h2>Escoge a dónde ir en la casa</h2>
+            <ul>
+                <li><a href="scene1/livingRoom.html">Sala de estar</a></li>
+                <li><a href="scene2/kitchen.html">Cocina</a></li>
+                <li><a href="scene3/hall.html">Pasillo</a></li>
+            </ul>
+        </nav>
+
+    </article>
+</main>
+
+<footer>
+    <p>Escapa de Evil Larry - Ivana Figueroa</p>
+    <p>Laboratorio 3 - Only HTML</p>
+</footer>
+
+</body>
+</html>

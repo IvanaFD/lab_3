@@ -1,107 +1,118 @@
 <!DOCTYPE html>
-<html lang="ES">
-    <head>  
-        <meta charset="utf-8" />
-        <title> Mesa </title>
-    </head>
-    <body>
-        <header> 
-            <h1>Mesa</h1>
-            <nav>
-                <ol> 
-                    <li><a href="../../index.html">Inicio</a></li>
-                    <li><a href="../menu.html">Entrada principal</a></li>
-                    <li><a href="livingRoom.html">Regresar a la sala</a></li>
-                </ol>
-            </nav>
-        </header>
+<html lang="es">
 
-        
+<head>  
+    <meta charset="utf-8">
 
-        <main>
-            <article>
+    <title>Escapa de Evil Larry | Mesa</title>
+</head>
 
+<body>
 
-                <figure>
+    <header> 
+        <h1>Mesa</h1>
+
+        <nav aria-label="Breadcrumb">
+            <ol> 
+                <li><a href="../../index.html">Inicio</a></li>
+                <li><a href="../menu.html">Entrada principal</a></li>
+                <li><a href="livingRoom.html">Sala de estar</a></li>
+                <li>Mesa</li>
+            </ol>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+
+            <header>
+                <h2>Revisando bajo la mesa</h2>
+            </header>
+
+            <figure>
                 <img 
                     src="/ivanafd/lab_3/images/mesasala.png" 
-                    alt="mesa de sala de estar"
-                    style="width: 400px;"
-                />
-                <figcaption>Te asomas bajo la mesa  </figcaption>
-                </figure>
+                    alt="Mesa de la sala de estar"
+                    width="400"
+                >
+                <figcaption>Te asomas bajo la mesa.</figcaption>
+            </figure>
 
+            <section>
+                <p>
+                    No hay nadie bajo la mesa, solo ves una factura.
+                </p>
+            </section>
 
-                <p>No hay nadie bajo la mesa, solo ves una factura</p>
-
-                <section>
-                    <h2>Factura encontrada en la casa de Larry</h2>
-
-                    <p>Parece ser que es de una tienda de decoraciones para fiesta</p>
-
-                    <table border="1">
-                        <caption>Factura #001 - Tienda "Fiesta Feliz"</caption>
-
-                        <thead>
-                            <tr>
-                                <th>Producto</th>
-                                <th>Cantidad</th>
-                                <th>Precio Unitario</th>
-                                <th>Total</th>
-                            </tr>
-                        </thead>
-
-                        <tbody>
-                            <tr>
-                                <td>Pastel</td>
-                                <td>1</td>
-                                <td>$15.00</td>
-                                <td>$15.00</td>
-                            </tr>
-                            <tr>
-                                <td>Globos</td>
-                                <td>10</td>
-                                <td>$1.00</td>
-                                <td>$10.00</td>
-                            </tr>
-                            <tr>
-                                <td>Sombreros de fiesta</td>
-                                <td>3</td>
-                                <td>$2.50</td>
-                                <td>$7.50</td>
-                            </tr>
-                        </tbody>
-
-                        <tfoot>
-                            <tr>
-                                <th colspan="3">Total General</th>
-                                <th>$32.50</th>
-                            </tr>
-                        </tfoot>
-                    </table>
-                </section>
+            <section>
+                <h3>Factura encontrada en la casa de Larry</h3>
 
                 <p>
-                    Esto es extraño, como alguien malvado le gustaría las fiestas, mejor sigamos buscando, regresemos a la sala
-
+                    Parece ser que es de una tienda de decoraciones para fiesta.
                 </p>
 
-                <nav>
+                <table>
+                    <caption>Factura #001 - Tienda "Fiesta Feliz"</caption>
+
+                    <thead>
+                        <tr>
+                            <th scope="col">Producto</th>
+                            <th scope="col">Cantidad</th>
+                            <th scope="col">Precio Unitario</th>
+                            <th scope="col">Total</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Pastel</td>
+                            <td>1</td>
+                            <td>$15.00</td>
+                            <td>$15.00</td>
+                        </tr>
+                        <tr>
+                            <td>Globos</td>
+                            <td>10</td>
+                            <td>$1.00</td>
+                            <td>$10.00</td>
+                        </tr>
+                        <tr>
+                            <td>Sombreros de fiesta</td>
+                            <td>3</td>
+                            <td>$2.50</td>
+                            <td>$7.50</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <th scope="row" colspan="3">Total General</th>
+                            <th>$32.50</th>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+
+            <section>
+                <p>
+                    Esto es extraño. ¿Cómo a alguien malvado le gustaría organizar fiestas?
+                    Mejor sigamos buscando. Regresemos a la sala.
+                </p>
+            </section>
+
+            <nav aria-label="Opciones desde la mesa">
                 <ul> 
-                    
                     <li><a href="livingRoom.html">Regresar a la sala</a></li>
                 </ul>
-                </nav>
+            </nav>
 
+        </article>
+    </main>
 
-               
-            </article>
-        </main>
+    <footer>
+        <p>Escapa de Evil Larry - Ivana Figueroa</p>
+        <p>Laboratorio 3 - Only HTML</p>
+    </footer>
 
-        <footer>
-            <p>escapa del evil larry - Ivana Figueroa</p>
-            <p>Laboratorio 3 - Only TML</p>
-        </footer>
-    </body>
-</html> 
-
+</body>
+</html>

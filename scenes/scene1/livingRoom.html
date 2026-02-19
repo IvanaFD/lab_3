@@ -1,55 +1,69 @@
 <!DOCTYPE html>
-<html lang="ES">
-    <head>  
-        <meta charset="utf-8" />
-        <title> Sala de estar </title>
-    </head>
-    <body>
-        <header> 
-            <h1>Sala de estar</h1>
-            <nav>
-                <ol> 
-                    <li><a href="../../index.html">Inicio</a></li>
-                    <li><a href="../menu.html">Entrada principal</a></li>
-                </ol>
-            </nav>
-        </header>
+<html lang="es">
 
-        <main>
-            <article>
+<head>  
+    <meta charset="utf-8">
+    <title>Escapa de Evil Larry | Sala de estar</title>
+</head>
 
-                <figure>
+<body>
+
+    <header> 
+        <h1>Sala de estar</h1>
+
+        <nav aria-label="Breadcrumb">
+            <ol> 
+                <li><a href="../../index.html">Inicio</a></li>
+                <li><a href="../menu.html">Entrada principal</a></li>
+                <li>Sala de estar</li>
+            </ol>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+
+            <header>
+                <h2>Exploración de la sala</h2>
+            </header>
+
+            <figure>
                 <img 
                     src="/ivanafd/lab_3/images/sala.png" 
-                    alt="Estas en la sala de estar"
-                    style="width: 400px;"
-                />
-                <figcaption>Entraste a la sala de estar</figcaption>
-                </figure>
+                    alt="Interior de la sala de estar de la casa de Larry"
+                    width="400"
+                >
+                <figcaption>Entraste a la sala de estar.</figcaption>
+            </figure>
 
-                <nav>  
-                    
+            <section>
+                <nav aria-label="Opciones dentro de la sala">  
+                    <h3>Decide dónde buscar</h3>
                     <ul> 
                         <li><a href="table.html">Ver bajo la mesa</a></li>
                         <li><a href="couch.html">Revisar el sillón</a></li>
-                        <li><a href="tv.html">Ver detrás de la tv</a></li>
+                        <li><a href="tv.html">Ver detrás de la TV</a></li>
                     </ul>
                 </nav>
+            </section>
 
-                <dialog open>
-                    <form method="dialog">
-                        <p>¡Ten cuidado!</p>
-                        <p>Larry parece estar cerca, escoge con cuidado a donde ir. </p>
-                        <button>Cerrar</button>
-                    </form>
-                </dialog>
-            </article>
-        </main>
+            <dialog open>
+                <form method="dialog">
+                    <p><strong>¡Ten cuidado!</strong></p>
+                    <p>Larry parece estar cerca. Escoge con cuidado a dónde ir.</p>
+                    <button>Cerrar</button>
+                </form>
+            </dialog>
 
-        <footer>
-            <p>escapa del evil larry - Ivana Figueroa</p>
-            <p>Laboratorio 3 - Only TML</p>
-        </footer>
-    </body>
-</html> 
+        </article>
+    </main>
+
+    <footer>
+        <p>Escapa de Evil Larry - Ivana Figueroa</p>
+        <p>Laboratorio 3 - Only HTML</p>
+    </footer>
+
+</body>
+</html>
+
 

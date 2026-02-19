@@ -1,65 +1,75 @@
 <!DOCTYPE html>
-<html lang="ES">
-    <head>  
-        <meta charset="utf-8" />
-        <title> Television </title>
-    </head>
+<html lang="es">
 
+<head>  
+    <meta charset="utf-8">
+    
+    <title>Escapa de Evil Larry | Televisión</title>
+</head>
 
-    <body>
-        <header> 
-            <h1>Television</h1>
-            
-        </header>
+<body>
 
-        
+    <header> 
+        <h1>Televisión</h1>
 
-        <main>
-            <article>
+        <nav aria-label="Breadcrumb">
+            <ol>
+                <li><a href="../../index.html">Inicio</a></li>
+                <li>Televisión</li>
+            </ol>
+        </nav>
+    </header>
 
-                <figure>
+    <main>
+        <article>
+
+            <header>
+                <h2>Detrás de la TV</h2>
+            </header>
+
+            <figure>
                 <img 
                     src="/ivanafd/lab_3/images/tv.png" 
-                    alt="television"
-                    style="width: 400px;"
-                />
-                <figcaption>Revisas destras de la TV</figcaption>
-                </figure>
+                    alt="Parte trasera de la televisión en la sala"
+                    width="400"
+                >
+                <figcaption>Revisas detrás de la TV.</figcaption>
+            </figure>
 
-                <p> ¡Oh no! Larry te encontró  </p>
+            <section>
+                <p><strong>¡Oh no! Larry te encontró.</strong></p>
+            </section>
 
-                <figure>
+            <figure>
                 <img 
                     src="/ivanafd/lab_3/images/larry.png" 
-                    alt="larry te encuentra"
-                    style="width: 400px;"
-                />
-                <figcaption>HAZ PERDIDO </figcaption>
-                </figure>
+                    alt="Larry aparece frente a ti"
+                    width="400"
+                >
+                <figcaption><strong>Has perdido.</strong></figcaption>
+            </figure>
 
-                <nav>
+            <nav aria-label="Opciones después de perder">
                 <ol>
                     <li><a href="../../index.html">Regresar al inicio</a></li>
-                    
                 </ol>
-                </nav>
+            </nav>
 
-                <dialog open>
-                    <form method="dialog">
-                        <p>¡Larry te ha encontrado!</p>
-                        <p>Has perdido y debes regresar al inicio.</p>
-                        <button>Cerrar</button>
-                    </form>
-                </dialog>
+            <dialog open aria-labelledby="mensaje-perdida">
+                <form method="dialog">
+                    <p id="mensaje-perdida"><strong>¡Larry te ha encontrado!</strong></p>
+                    <p>Has perdido y debes regresar al inicio.</p>
+                    <button>Cerrar</button>
+                </form>
+            </dialog>
 
-                
-            </article>
-        </main>
+        </article>
+    </main>
 
-        <footer>
-            <p>escapa del evil larry - Ivana Figueroa</p>
-            <p>Laboratorio 3 - Only TML</p>
-        </footer>
-    </body>
-</html> 
+    <footer>
+        <p>Escapa de Evil Larry - Ivana Figueroa</p>
+        <p>Laboratorio 3 - Only HTML</p>
+    </footer>
 
+</body>
+</html>

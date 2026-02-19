@@ -1,73 +1,85 @@
 <!DOCTYPE html>
-<html lang="ES">
-    <head>  
-        <meta charset="utf-8" />
-        <title> cocina </title>
-    </head>
-    <body>
-        <header> 
-            <h1>Cocina</h1>
-            <nav>
-                <ol>
-                    <li><a href="../../index.html">Inicio</a></li>
-                    <li><a href="../menu.html">Entrada principal</a></li>
-                    
-                </ol>
-            </nav>
-        </header>
+<html lang="es">
 
-        <main>
-            <article>
+<head>  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escapa de Evil Larry | Cocina</title>
+</head>
 
-                <figure>
+<body>
+
+    <header> 
+        <h1>Cocina</h1>
+
+        <nav aria-label="Breadcrumb">
+            <ol>
+                <li><a href="../../index.html">Inicio</a></li>
+                <li><a href="../menu.html">Entrada principal</a></li>
+                <li>Cocina</li>
+            </ol>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+
+            <header>
+                <h2>Explorando la cocina</h2>
+            </header>
+
+            <figure>
                 <img 
                     src="/ivanafd/lab_3/images/cocina.png" 
-                    alt="Entrada de la cocina
-                    style="width: 400px;"
-                />
-                <figcaption>Entraste a la cocina, esta muy osucro aqui, y huele a comida</figcaption>
-                </figure>
+                    alt="Interior oscuro de la cocina con mesa y utensilios"
+                    width="400"
+                >
+                <figcaption>
+                    Entraste a la cocina. Está muy oscuro aquí y huele a comida.
+                </figcaption>
+            </figure>
 
-                <section>
-                    <p>
-                        Al entrar a la cocina, percibes un fuerte olor a comida.
-                        Son nachos recién preparados.
-                    </p>
+            <section>
+                <p>
+                    Al entrar a la cocina, percibes un fuerte olor a comida.
+                    Son nachos recién preparados.
+                </p>
 
-                    <p>
-                        Parece que alguien está organizando una fiesta de verdad.
-                        Hay platos, servilletas y bolsas abiertas sobre la mesa.
-                    </p>
+                <p>
+                    Parece que alguien está organizando una fiesta de verdad.
+                    Hay platos, servilletas y bolsas abiertas sobre la mesa.
+                </p>
 
-                    <p>
-                        Pero no hay tiempo para pensar en comida.
-                        Debes revisar rápidamente cada rincón antes de que Larry aparezca.
-                    </p>
-                </section>
+                <p>
+                    Pero no hay tiempo para pensar en comida.
+                    Debes revisar rápidamente cada rincón antes de que Larry aparezca.
+                </p>
+            </section>
 
-                <nav>
-                    <ul>
-                        <li><a href="table.html">Ver bajo la mesa</a></li>
-                        <li><a href="trashCan.html">Revisar el basurero</a></li>
-                        <li><a href="scene2.2/garden.html">Salir al jardin</a></li>
-                    </ul>
-                </nav>
+            <nav aria-label="Opciones dentro de la cocina">
+                <h3>Decide dónde buscar</h3>
+                <ul>
+                    <li><a href="table.html">Ver bajo la mesa</a></li>
+                    <li><a href="trashCan.html">Revisar el basurero</a></li>
+                    <li><a href="scene2.2/garden.html">Salir al jardín</a></li>
+                </ul>
+            </nav>
 
-                <dialog open>
-                    <form method="dialog">
-                        <p>¡Ten cuidado!</p>
-                        <p>Larry parece estar cerca, escoge con cuidado a donde ir. </p>
-                        <button>Cerrar</button>
-                    </form>
-                </dialog>
+            <dialog open aria-labelledby="advertencia-cocina">
+                <form method="dialog">
+                    <p id="advertencia-cocina"><strong>¡Ten cuidado!</strong></p>
+                    <p>Larry parece estar cerca. Escoge con cuidado a dónde ir.</p>
+                    <button>Cerrar</button>
+                </form>
+            </dialog>
 
-            </article>
-        </main>
+        </article>
+    </main>
 
-        <footer>
-            <p>escapa del evil larry - Ivana Figueroa</p>
-            <p>Laboratorio 3 - Only TML</p>
-        </footer>
-    </body>
-</html> 
+    <footer>
+        <p>Escapa de Evil Larry - Ivana Figueroa</p>
+        <p>Laboratorio 3 - Only HTML</p>
+    </footer>
 
+</body>
+</html>
